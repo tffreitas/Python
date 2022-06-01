@@ -1,2 +1,2 @@
 # Python
- Projetos em Pyhton
+ Estudos em Pyhton
