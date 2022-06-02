@@ -1,0 +1,14 @@
+#Tocar mp3
+
+#Para esta solução foi utilizado a biblioteca pygame
+
+import pygame
+pygame.mixer.init()
+pygame.init()
+pygame.mixer.music.load('ex021.mp3')
+pygame.mixer.music.play()
+pygame.event.wait()
+
+
+
+
