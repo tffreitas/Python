@@ -23,6 +23,19 @@ print(txt.upper()) #Altera toda a string pra letras maiusculas
 print(txt.lower()) #Altera toda a string pra letras minusculas
 print(txt.capitalize()) #Altera todas as letras para minuscula menos a primeira
 print(txt.title()) #Altera o inicio de cada palavra para maiuscula
+print(txt.strip()) #Remove espaços inuteis no inicio e final da string
+print(txt.rstrip()) #Remove os espaços inuteis no final da string
+print(txt.lstrip()) #Remove os espaços inuteis no inicio da string
+
+#DIVISÃO
+
+print(txt.split()) #Divide uma string em lista
+
+#Junção
+
+print('-'.join(txt))
+
+
 
 
 
