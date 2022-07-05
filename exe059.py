@@ -23,7 +23,7 @@ while opcao != 5:
         elif num1 == num2:
             print('Os numeros são iguais')
         else:
-            print('{} é menor que {}'.format(num1, num2))
+            print('{} é maior que {}'.format(num2, num1))
     elif opcao == 4:
         print('Informe os numeros novamente.')
         n1 = int(input('Primeiro valor: '))
